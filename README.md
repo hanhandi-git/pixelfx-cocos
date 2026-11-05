@@ -2,7 +2,7 @@
 
 **Languages / 语言:** [English](README.md) · [简体中文](README.zh-CN.md)
 
-Cocos Creator **3.8.8** preview project for playing PNG/JSON sprite sheets exported from [pixelfx](https://github.com/hanhandi-git/pixelfx).
+Cocos Creator **3.8.8** preview project for playing PNG/JSON sprite sheets exported from [pixelfx-extended](https://github.com/hanhandi-git/pixelfx-extended).
 
 Effect source and export tools live in the **pixelfx** repo. This repo holds the Creator scenes, scripts, and locally generated `assets/resources/pixelfx/` (gitignored).
 

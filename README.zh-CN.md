@@ -2,7 +2,7 @@
 
 **语言 / Languages:** [English](README.md) · [简体中文](README.zh-CN.md)
 
-Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx](https://github.com/hanhandi-git/pixelfx) 导出的 PNG/JSON 特效资源。
+Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx-extended](https://github.com/hanhandi-git/pixelfx-extended) 导出的 PNG/JSON 特效资源。
 
 特效源码与导出工具在 **pixelfx** 仓库；本仓库只保留 Cocos 场景、脚本与（本地生成的）`assets/resources/pixelfx/`（已 gitignore，勿提交）。
 
