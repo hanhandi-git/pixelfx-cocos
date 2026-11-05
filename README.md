@@ -7,8 +7,9 @@ Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx](../pixelfx) 导出的
 ## 打开工程
 
 ```bash
+cd /path/to/pixelfx-cocos
 /Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/MacOS/CocosCreator \
-  --project /Users/michiyang/Desktop/code/develop/game_dev/pixelfx-cocos
+  --project .
 ```
 
 在 Creator 中打开 `assets/scenes/Main.scene`，点击 **Preview**。预览地址一般为 `http://localhost:7456/`。
