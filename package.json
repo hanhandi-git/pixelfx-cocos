@@ -1,0 +1,13 @@
+{
+  "name": "pixelfx-cocos",
+  "version": "0.1.0",
+  "description": "Cocos Creator 3.8.8 preview project for pixelfx exported sprite sheets.",
+  "uuid": "9deb7e5a-7698-4a62-8634-3894e1d96166",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "export": "node ../pixelfx/tools/cocos.mjs --out assets/resources/pixelfx",
+    "export:all": "node ../pixelfx/tools/cocos.mjs --out assets/resources/pixelfx"
+  }
+}
