@@ -1,6 +1,6 @@
 # pixelfx-cocos
 
-Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx](../pixelfx) 导出的 PNG/JSON 特效资源。
+Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx](https://github.com/hanhandi-git/pixelfx) 导出的 PNG/JSON 特效资源。
 
 特效源码与导出工具在 sibling 仓库 `pixelfx`；本仓库只保留 Cocos 场景、脚本与（本地生成的）`assets/resources/pixelfx/`。
 
