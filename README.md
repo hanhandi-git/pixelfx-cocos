@@ -1,10 +1,12 @@
 # pixelfx-cocos
 
-Cocos Creator **3.8.8** 预览工程：播放从 [pixelfx](https://github.com/hanhandi-git/pixelfx) 导出的 PNG/JSON 特效资源。
+**Languages / 语言:** [English](README.md) · [简体中文](README.zh-CN.md)
 
-特效源码与导出工具在 sibling 仓库 `pixelfx`；本仓库只保留 Cocos 场景、脚本与（本地生成的）`assets/resources/pixelfx/`。
+Cocos Creator **3.8.8** preview project for playing PNG/JSON sprite sheets exported from [pixelfx](https://github.com/hanhandi-git/pixelfx).
 
-## 打开工程
+Effect source and export tools live in the **pixelfx** repo. This repo holds the Creator scenes, scripts, and locally generated `assets/resources/pixelfx/` (gitignored).
+
+## Open the project
 
 ```bash
 cd /path/to/pixelfx-cocos
@@ -12,26 +14,26 @@ cd /path/to/pixelfx-cocos
   --project .
 ```
 
-在 Creator 中打开 `assets/scenes/Main.scene`，点击 **Preview**。预览地址一般为 `http://localhost:7456/`。
+Open `assets/scenes/Main.scene` in Creator and press **Preview**. The dev server is usually at `http://localhost:7456/`.
 
-## 导出资源
+## Export resources
 
-在 `pixelfx` 中改完特效后，在本目录执行：
+After editing effects in **pixelfx**, from this directory:
 
 ```bash
-npm run export -- fire/torch          # 增量导出指定 ID
-npm run export -- fire ice             # 多个 pattern
-npm run export:all                     # 全库（耗时长）
+npm run export -- fire/torch          # incremental export for one or more ids
+npm run export -- fire ice
+npm run export:all                    # full library (slow)
 ```
 
-或在 `pixelfx` 根目录：
+Or from the **pixelfx** root:
 
 ```bash
 npm run cocos:export -- fire/torch
 ```
 
-导出目录：`assets/resources/pixelfx/`（已 gitignore，勿提交）。
+Output: `assets/resources/pixelfx/` (gitignored — regenerate, do not commit).
 
-## 运行时组件
+## Runtime component
 
-可复制的通用组件在 `pixelfx/cocos/runtime/PixelfxSprite.ts`。本工程内的副本在 `assets/scripts/pixelfx/`；Workbench 专用脚本仅存在于本仓库。
+The copy-paste component is `pixelfx/cocos/runtime/PixelfxSprite.ts`. This project keeps a copy under `assets/scripts/pixelfx/`; Workbench-only scripts exist only here.
